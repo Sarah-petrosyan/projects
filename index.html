@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sarah Petrosyan – Frontend Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar bg-white sticky-top">
+  <div class="container py-2">
+    <a class="navbar-brand fw-bold" href="#">Danisoft Resume</a>
+    <div class="d-flex align-items-center gap-2 ms-auto">
+      <label class="small m-0" for="langSelect">Language</label>
+      <select id="langSelect" class="form-select form-select-sm" style="width:170px"></select>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero py-5">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-md-2 text-center text-md-start">
+        <div id="avatar" class="avatar"></div>
+      </div>
+      <div class="col-md-7">
+        <h1 class="fw-bold mb-1" data-i18n="hero.name"></h1>
+        <div class="lead" data-i18n="hero.role"></div>
+        <div class="mt-2" id="hero-tags">
+          <span class="tag" data-i18n="hero.tag1"></span>
+          <span class="tag" data-i18n="hero.tag2"></span>
+          <span class="tag" data-i18n="hero.tag3"></span>
+          <span class="tag" data-i18n="hero.tag4"></span>
+        </div>
+      </div>
+      <div class="col-md-3 text-md-end">
+        <div class="social">
+          <a id="lnkEmail" href="mailto:sarpetrosyan@gmail.com" data-i18n="hero.email"></a>
+          <a id="lnkPhone" href="tel:+18184826220" data-i18n="hero.phone"></a>
+          <a id="lnkLinkedIn" href="https://github.com/Sarah-petrosyan/" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT + SKILLS -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <div class="item-card">
+          <h4 class="mb-3" data-i18n="about.title"></h4>
+          <p class="mb-0" data-i18n="about.text"></p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="item-card">
+          <h5 class="mb-3" data-i18n="skills.title"></h5>
+          <div id="skills" class="d-flex flex-wrap"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="pb-2">
+  <div class="container">
+    <h4 class="mb-3" data-i18n="exp.title"></h4>
+    <div id="experience" class="timeline"></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="py-4">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h4 class="m-0" data-i18n="proj.title"></h4>
+      <a class="btn btn-outline-primary btn-sm" href="#" data-i18n="proj.all"></a>
+    </div>
+    <div id="projects" class="row g-4"></div>
+  </div>
+</section>
+
+<!-- EDUCATION + CERTS -->
+<section class="pb-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="item-card">
+          <h5 class="mb-3" data-i18n="edu.title"></h5>
+          <ul class="mb-0" id="education"></ul>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="item-card">
+          <h5 class="mb-3" data-i18n="cert.title"></h5>
+          <ul class="mb-0" id="certs"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-4 text-center text-muted">
+  <div class="container small" data-i18n="footer.copy"></div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
