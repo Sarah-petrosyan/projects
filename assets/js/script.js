@@ -156,17 +156,24 @@ const projects = [
         am: { title: "X/O խաղ", desc: "Խաղացեք X և O խաղը" },
         en: { title: "X/O Game", desc: "Play the X and O game" },
         ru: { title: "Игра X/O", desc: "Играйте в X и O" }
+    },{
+        id: 7,
+        img: 'assets/images/barev.jpg',
+        to: "pages/barev/index.html",
+        am: { title: "Barev", desc: "Խաղացեք X և O խաղը" },
+        en: { title: "barev", desc: "Play the X and O game" },
+        ru: { title: "barev", desc: "Играйте в X и O" }
     },
     {
-        id: 7,
-        img: 'assets/images/millioner.jpeg',
+        id: 8,
+        img: 'assets/images/millioner.jpg',
         to: "pages/Millioner/index.html",
         am: { title: "Միլիոնատեր", desc: "Պատասխանեք հարցերին և հաղթեք" },
         en: { title: "Millionaire", desc: "Answer questions and win" },
         ru: { title: "Миллионер", desc: "Отвечайте на вопросы и выигрывайте" }
     },
     {
-        id: 8,
+        id: 9,
         img: 'assets/images/bigtodo.jpeg',
         to: "pages/BigTodo/index.html",
         am: { title: "Մեծ Տնային", desc: "Կառավարեք բոլոր առաջադրանքները մեկ տեղում" },
